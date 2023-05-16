@@ -2,12 +2,12 @@
 # Git Commands for daily usage: 
 
  1. *create a new repository on the command line:*
-`git init`
-`git add .`
-`git commit -m "first commit"`
-`git branch -M main`
-`git remote add origin https://github.com/abdullahmiraz/test-delete.git`
-`git push -u origin main`
+`git init`  
+`git add .`  
+`git commit -m "first commit"`  
+`git branch -M main`  
+`git remote add origin https://github.com/abdullahmiraz/test-delete.git`  
+`git push -u origin main`  
 
  2.  *for daily usage:* 
  `git add .`
