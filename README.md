@@ -1,7 +1,7 @@
 
 # Git Commands for daily usage: 
 
- 1. *create a new repository on the command line:*
+ 1. *create a new repository on the command line:*  
 `git init`  
 `git add .`  
 `git commit -m "first commit"`  
@@ -9,15 +9,15 @@
 `git remote add origin https://github.com/abdullahmiraz/test-delete.git`  
 `git push -u origin main`  
 
- 2.  *for daily usage:* 
- `git add .`
-`git commit -m "message here"`
-`git push`
+ 2.  *for daily usage:*   
+ `git add .`  
+`git commit -m "message here"`  
+`git push`  
 
- 3. *push an existing repository from the command line:*
- `git remote add origin https://github.com/abdullahmiraz/test-delete.git`
-    `git branch -M main`
-    `git push -u origin main`
+ 3. *push an existing repository from the command line:*  
+ `git remote add origin https://github.com/abdullahmiraz/test-delete.git`  
+    `git branch -M main`  
+    `git push -u origin main`  
     
  4.  `git init`: Initializes a new Git repository in the current directory.
  5.  `git clone <repository>`: Clones a remote repository to your local machine.
