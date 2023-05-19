@@ -36,4 +36,5 @@
  18.  `git reset <file>`: Unstages a file, removing it from the staging area.
  19.  `git stash`: Temporarily saves changes that are not ready to be committed.
  20.  `git branch -d <branch>`: Deletes a branch.
- 21. `git clean -fX` is a Git command that removes all untracked files and directories from the working directory, including those specified in `.gitignore` files
+ 21. `git clean -fX` : removes all untracked files and directories from the working directory, including those specified in `.gitignore` files
+22. `git clean -n -fX` : perform a dry run and see which files would be removed 
