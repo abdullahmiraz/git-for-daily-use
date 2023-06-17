@@ -38,3 +38,7 @@
  20.  `git branch -d <branch>`: Deletes a branch.
  21. `git clean -fX` : removes all untracked files and directories from the working directory, including those specified in `.gitignore` files
 22. `git clean -n -fX` : perform a dry run and see which files would be removed 
+
+
+## Problems Fix:
+1. if some HEAD related problem comes, remote the origin url, reset the origin url
