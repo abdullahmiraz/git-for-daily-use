@@ -42,3 +42,4 @@
 
 ## Problems Fix:
 1. if some HEAD related problem comes, remote the origin url, reset the origin url
+2. `git rm --cached . -rf` : Error Name:  _fatal: in unpopulated submodule_
