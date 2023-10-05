@@ -38,7 +38,8 @@
  20.  `git branch -d <branch>`: Deletes a branch.
  21. `git clean -fX` : removes all untracked files and directories from the working directory, including those specified in `.gitignore` files
  22. `git clean -n -fX` : perform a dry run and see which files would be removed
- 23. `git submodules` : [[git submodule repo](https://github.com/abdullahmiraz/git-submodules)] create a repo within a repo and update them selectively/individually.  
+ 23. `git submodules` : [[git submodule repo](https://github.com/abdullahmiraz/git-submodules)] create a repo within a repo and update them selectively/individually.
+ 24. `git rm --cached . ` : unstage all files within the current directory and its subdirectories.
 
 
 ## Problems Fix:
@@ -46,6 +47,7 @@
 | ------ | ---------------- | --------------------------------------------- |
 | 1      |  *reset the origin url* | HEAD related problem comes; remote the origin url   |
 | 2      |  `git rm --cached . -rf` |fatal: in unpopulated submodule |
-| 3      | `git pull origin <branch-name> --allow-unrelated-histories`  | fatal: refusing to merge unrelated histories
+| 3      | `git pull origin <branch-name> --allow-unrelated-histories`  | fatal: refusing to merge unrelated histories 
+
  
 
