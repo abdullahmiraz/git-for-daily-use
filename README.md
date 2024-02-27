@@ -40,6 +40,7 @@
  22. `git clean -n -fX` : perform a dry run and see which files would be removed
  23. `git submodules` : [[git submodule repo](https://github.com/abdullahmiraz/git-submodules)] create a repo within a repo and update them selectively/individually.
  24. `git rm --cached . ` : unstage all files within the current directory and its subdirectories.
+ 25. `git rm --cached -r .` : recursively remove the files in the cloud, those doesnt matched with the local
 
 
 ## Problems Fix:
